@@ -1,0 +1,9 @@
+policy_id: custom_demo_v1
+country: CUSTOM
+status: demonstration
+description: Generic placeholder profile for testing. Configure and validate rules before use.
+rules:
+  - id: hold_uncertain
+    category: uncertain
+    action: hold
+    enabled: true

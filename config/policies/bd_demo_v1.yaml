@@ -1,0 +1,13 @@
+policy_id: bd_demo_v1
+country: BD
+status: demonstration
+description: Placeholder profile for software testing only; not an authoritative statement of Bangladesh law.
+rules:
+  - id: review_potential_violence
+    category: potential_physical_violence
+    action: human_review
+    enabled: true
+  - id: hold_uncertain
+    category: uncertain
+    action: hold
+    enabled: true

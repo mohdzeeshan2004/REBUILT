@@ -1,0 +1,6 @@
+# Core app dependencies. Install these first for the most reliable setup.
+streamlit>=1.38,<2.0
+opencv-python-headless>=4.9
+numpy>=1.26
+Pillow>=10.0
+PyYAML>=6.0

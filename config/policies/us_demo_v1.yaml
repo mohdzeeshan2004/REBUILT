@@ -1,0 +1,13 @@
+policy_id: us_demo_v1
+country: US
+status: demonstration
+description: Placeholder profile. Replace with verified platform and jurisdiction-specific rules before production use.
+rules:
+  - id: review_potential_violence
+    category: potential_physical_violence
+    action: human_review
+    enabled: true
+  - id: hold_uncertain
+    category: uncertain
+    action: hold
+    enabled: true

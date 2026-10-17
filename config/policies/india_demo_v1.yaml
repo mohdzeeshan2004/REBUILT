@@ -1,0 +1,21 @@
+policy_id: india_demo_v1
+country: IN
+status: demonstration
+description: Example testing profile only; not legal advice or an authoritative statement of Indian law.
+rules:
+  - id: review_potential_violence
+    category: potential_physical_violence
+    action: human_review
+    enabled: true
+  - id: review_animal_harm
+    category: animal_harm
+    action: human_review
+    enabled: true
+  - id: review_contextual_threat
+    category: potential_threat
+    action: human_review
+    enabled: true
+  - id: hold_uncertain
+    category: uncertain
+    action: hold
+    enabled: true
